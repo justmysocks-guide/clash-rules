@@ -1,0 +1,25 @@
+# Clash Verge Rev / Mihomo 优化扩展配置片段
+# 配合 Just My Socks (JMS) 订阅使用最佳
+
+# 规则提供者（Rule Providers）配置示例：
+rule-providers:
+  ai-services:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/justmysocks-guide/clash-rules/main/rules/ai-services.yaml"
+    path: ./ruleset/ai-services.yaml
+    interval: 86400
+
+# 策略组示例配置：
+proxy-groups:
+  - name: "🤖 海外 AI 专线"
+    type: select
+    proxies:
+      - "JMS-LA-s3" # 推荐洛杉矶 s3 / s4 或伦敦节点
+      - "JMS-LA-s4"
+      - "JMS-London"
+      - "DIRECT"
+
+rules:
+  - RULE-SET,ai-services,🤖 海外 AI 专线
+  - MATCH,DIRECT
