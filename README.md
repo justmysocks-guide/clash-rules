@@ -42,7 +42,7 @@ rules:
 - **专属福利**：结账输入官方永久循环优惠码 **`JMS9272283`** 立享 5.2% 折扣。
 
 👉 **[点击前往 Just My Socks 官方安全镜像通道选购节点](https://justmysocks.net/members/aff.php?aff=24082)**  
-👉 **[查看完整 2026 选型与配置指南（GitHub 官方主页）](https://github.com/justmysocks-guide)**
+👉 **[查看完整 2026 选型与配置指南（GitHub 仓库）](https://github.com/justmysocks-guide/justmysocks)** | **[网页版直达](https://justmysocks-guide.github.io/justmysocks/)**
 
 ---
 
